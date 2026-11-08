@@ -3,25 +3,26 @@
 ReadIt 是一个 Android 平台的英文阅读器
 
 [![Release](https://img.shields.io/github/v/release/oracole/ReadIt?color=D9534F)](https://github.com/oracole/ReadIt/releases/latest)
-[![dict.db](https://img.shields.io/badge/下载-dict.db-blue)](https://github.com/oracole/ReadIt/releases/download/dict/dict.db)
+[![dict.db](https://img.shields.io/badge/下载词典数据-dict.db-blue)](https://github.com/oracole/ReadIt/releases/download/dict/dict.db)
 
 ---
 
 ## 这个软件解决的问题
 
-读英文遇到生词，通常要打开词典，词典会给你这个词的全部义项，但你要自己判断当前这一句用的是哪一个，有时可能还没有对应的引申义项
 
-ReadIt 有两个功能
+读英语文章遇到生词，查词典往往会给出很多个释义，你需要自己从里面挑出符合当前句子的那一个。甚至有时候，贴合语境的引申义词典里并没有收录
 
-**词典查询**
+因此，ReadIt 有两个主要的功能：
 
-离线查询，返回这个词在词典里所有的含义
+### 词典查询
 
-**AI查询**
+离线查询，返回这个词在词典里的释义
+
+### AI查询
 
 这是这个应用主要的功能，结合上下文，点击语境义给出这个词在这一句话里的具体含义，也可按需选择，让展开词根、搭配、例句、音标（AI生成）
 
-两个功能并列呈现，按需取用，互不干扰
+这两个功能是并列的，按需取用，互不干扰
 
 ---
 
@@ -74,10 +75,10 @@ ReadIt 有两个功能
 **朗读**
 
 朗读使用系统自带的 TTS 引擎，语速可以在 50% 到 200% 之间调整
-建议安装Play商店里的 Speech Recognition & Synthesis，是谷歌的 TTS 引擎，如果不配置这个的话就会用系统内置的TTS，比如小米就是小爱的声音，好像也能听…
+建议安装 Play 商店里的 Speech Recognition & Synthesis，这是谷歌的 TTS 引擎，如果不配置这个的话就会用系统内置的TTS，比如小米手机就是小爱的声音，并不是不能听
 
 
-不建议使用这个软件阅读长篇书籍，性能很抽象
+## 不建议使用这个软件阅读长篇书籍，性能很抽象
 
 ---
 
@@ -98,7 +99,7 @@ ReadIt 有两个功能
 
 AI 相关的功能都需要用到密钥，需要先在 DeepSeek 平台申请一个然后填写在设置页里，默认只连接 DeepSeek，也建议用 DeepSeek（因为大肥鱼很便宜，用很久可能不到一块钱）
 
-如果要换成别的 OpenAI 兼容服务，设置页里有对应的说明
+如果要换成别的 OpenAI 兼容服务，设置页里有对应的配置入口，按照服务提供方文档填写就好了
 
 ---
 
