@@ -2,6 +2,11 @@
 
 ReadIt 是一个 Android 平台的英文阅读器
 
+[![Release](https://img.shields.io/github/v/release/oracole/ReadIt)](https://github.com/oracole/ReadIt/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/oracole/ReadIt/total)](https://github.com/oracole/ReadIt/releases)
+
+[**下载安装包**](https://github.com/oracole/ReadIt/releases/latest)　　[**下载词典 dict.db**](https://github.com/oracole/ReadIt/releases/latest/download/dict.db)
+
 ---
 
 ## 这个软件解决的问题
@@ -71,7 +76,7 @@ AI     结合上下文，给出它在这一句话里的具体含义
 建议安装Play商店里的 Speech Recognition & Synthesis，是谷歌的 TTS 引擎，如果不配置这个的话就会用系统内置的TTS，比如小米就是小爱的声音
 
 
-*不建议使用这个软件阅读长篇书籍
+不建议使用这个软件阅读长篇书籍
 ---
 
 ## 使用之前要准备的
