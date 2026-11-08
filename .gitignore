@@ -1,0 +1,17 @@
+# 构建产物
+build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+
+# 本地环境
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# 词典数据，放 Release 附件，不进仓库
+*.db
+*.csv
