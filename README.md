@@ -2,7 +2,7 @@
 
 ReadIt 是一个 Android 平台的英文阅读器
 
-[![Release](https://img.shields.io/github/v/release/oracole/ReadIt)](https://github.com/oracole/ReadIt/releases/latest)
+[![Release](https://img.shields.io/github/v/release/oracole/ReadIt?color=E05A28)](https://github.com/oracole/ReadIt/releases/latest)
 [![dict.db](https://img.shields.io/badge/下载-dict.db-blue)](https://github.com/oracole/ReadIt/releases/download/dict/dict.db)
 
 ---
