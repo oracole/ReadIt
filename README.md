@@ -3,9 +3,7 @@
 ReadIt 是一个 Android 平台的英文阅读器
 
 [![Release](https://img.shields.io/github/v/release/oracole/ReadIt)](https://github.com/oracole/ReadIt/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/oracole/ReadIt/total)](https://github.com/oracole/ReadIt/releases)
-
-[**下载安装包**](https://github.com/oracole/ReadIt/releases/latest)　　[**下载词典 dict.db**](https://github.com/oracole/ReadIt/releases/latest/download/dict.db)
+[![dict.db](https://img.shields.io/badge/下载-dict.db-blue)](https://github.com/oracole/ReadIt/releases/download/dict/dict.db)
 
 ---
 
@@ -73,10 +71,11 @@ AI     结合上下文，给出它在这一句话里的具体含义
 **朗读**
 
 朗读使用系统自带的 TTS 引擎，语速可以在 50% 到 200% 之间调整
-建议安装Play商店里的 Speech Recognition & Synthesis，是谷歌的 TTS 引擎，如果不配置这个的话就会用系统内置的TTS，比如小米就是小爱的声音
+建议安装Play商店里的 Speech Recognition & Synthesis，是谷歌的 TTS 引擎，如果不配置这个的话就会用系统内置的TTS，比如小米就是小爱的声音，好像也能听…
 
 
 不建议使用这个软件阅读长篇书籍
+
 ---
 
 ## 使用之前要准备的
@@ -87,7 +86,7 @@ AI     结合上下文，给出它在这一句话里的具体含义
 
 数据来源： <https://github.com/skywind3000/ECDICT>，采用 MIT 协议
 
-词典文件可以从本项目的 Releases 页面直接下载，文件名是 `dict.db`，大约 203 MB
+词典文件可以从本项目的 Releases 页面直接下载，文件名是 `dict.db`，大约 213 MB
 
 下载之后在应用的设置页里选择这个文件导入，导入过程基本不超过一分钟，取决于手机的存储速度
 
