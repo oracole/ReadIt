@@ -14,8 +14,8 @@ android {
         applicationId = "com.oracole.readit"
         minSdk = 33
         targetSdk = 34
-        versionCode = 159
-        versionName = "1.11.0"
+        versionCode = 160
+        versionName = "1.11.1"
     }
 
     // 签名配置从 local.properties 读，那个文件不进仓库。

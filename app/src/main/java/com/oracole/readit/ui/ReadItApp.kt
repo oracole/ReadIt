@@ -1006,6 +1006,9 @@ fun ReadItApp(
                                     onCreateArticle = {
                                         val picked = vocabItems.filter { vocabSelected.contains(it.id) }
                                         vocabSelecting = false
+                                        // 必须清，否则从生成页返回后这些词还亮着，
+                                        // 再长按进多选会看到一堆遗留的选中项
+                                        vocabSelected.clear()
                                         go(Route.Generate(picked.map { it.word }))
                                     }
                                 )

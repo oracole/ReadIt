@@ -493,12 +493,20 @@ fun VocabScreen(
                                 selected = selected.contains(v.id),
                                 onClick = {
                                     if (selecting) {
-                                        if (selected.contains(v.id)) selected.remove(v.id)
-                                        else selected.add(v.id)
+                                        // 用 removeAll，不是 remove。
+                                        // selected 是 List，同一个 id 可能被加过两次，
+                                        // 只删第一个的话复选框还亮着，但计数已经减一
+                                        if (selected.contains(v.id)) selected.removeAll { it == v.id }
+                                        else if (!selected.contains(v.id)) selected.add(v.id)
                                     } else onOpenDetail(v)
                                 },
                                 onLongClick = {
-                                    if (!selecting) { onSelectingChange(true); selected.add(v.id) }
+                                    if (!selecting) {
+                                        onSelectingChange(true)
+                                        // 先清再加，避免上一次残留的选中项混进来
+                                        selected.clear()
+                                        selected.add(v.id)
+                                    }
                                 },
                                 onToggleKnown = { onSetKnown(v, !v.isKnown) }
                             )
